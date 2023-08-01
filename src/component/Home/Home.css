@@ -1,0 +1,536 @@
+/* start home */
+.home {
+    background-image: url("../../Images/Header.png");
+
+}
+
+.home .text {
+    margin-top: 400px;
+}
+
+.home .text p {
+    font-weight: 600;
+    color: #FFFFFF;
+    font-size: 40px;
+    /* margin-right: 107%; */
+    width: 100%;
+    line-height: 60px;
+    letter-spacing: 2px;
+    margin-bottom: 70px;
+    align-items: center;
+
+}
+
+.home .text h3 {
+    font-weight: 400;
+    color: #FFFFFF;
+    width: 100%;
+    font-size: 30px;
+    /* line-height: 30px; */
+    /* margin-right: 148%; */
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+
+
+.logo img {
+    width: 120px;
+    height: 100px;
+    margin-left: 40px;
+}
+
+@media only screen and (max-width: 992px) {
+    .home .text {
+        margin-bottom: 10px !important;
+    }
+
+    .home .text .p2 {
+        direction: rtl;
+        width: 80%;
+    }
+
+    header img {
+     width: auto;
+    }
+
+  
+  
+}
+
+/* end home */
+/* start header */
+
+header button {
+    background-color: var(--orange-color);
+    padding: 15px 30px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    border-width: 2px;
+    line-height: 1.2;
+    color: white;
+    margin-bottom: 50px;
+    /* margin-right: 139%; */
+    position: relative;
+    right: 45%;
+   
+}
+
+
+header img {
+    width: 100%;
+    margin-top: 65px;
+    top: 85px;
+    height: 100px;
+    border-radius: 10%;
+}
+
+/* end header */
+
+/* start work */
+
+
+.workProcess .head img {
+    width: 262px;
+    height: 276px;
+    /* margin-right: 950px; */
+    padding-bottom: -100px;
+    object-fit: contain;
+    position: relative;
+    right: 50%;
+    top: 45px;
+}
+
+.workProcess .head {
+    text-align: center;
+    padding-top: 70px;
+}
+
+
+.workProcess .head p {
+    color: var(--orange-color);
+    font-family: Vazirmatn;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 100%;
+}
+
+.workProcess .head h2 {
+    color: var(--main-color);
+    font-family: Vazirmatn;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 106px;
+ align-items: center;
+
+}
+.workProcess .head h1 {
+  color: var(--orange-color);
+ font-family: Vazirmatn;
+font-size: 35px;
+font-weight: 700;
+line-height: 56px;
+letter-spacing: 0em;
+text-align: right; 
+margin-top: -200px;
+}
+.workProcess .head hgroup {
+    color: var(--orange-color);
+   font-family: Vazirmatn;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: right; 
+  }
+
+.workProcess .head h4  {
+    color: #000000;
+    font-family: Vazirmatn;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: right;
+}
+
+.workProcess .head span  {
+    color: #000000;
+    font-family: Vazirmatn;
+   font-size: 30px;
+   font-weight: 600;
+   line-height: 56px;
+   letter-spacing: 0em;
+   
+}
+.workProcess .head h {
+    font-family: Vazirmatn;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0em;
+    /* text-align: right; */
+    width: 100%;
+}
+
+
+.workProcess .head  {
+    font-family: Vazirmatn;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 38px;
+    width: 100%;
+}
+
+.service {
+    background-color: #EEEEEE;
+    position: relative;
+    bottom: 60px;
+}
+.service .info h3 {
+    font-family: Vazirmatn;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 115px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 217px;
+    position: relative;
+    top: 30px;
+}
+.service .info p {
+    font-family: Vazirmatn;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+.workProcess-boxes {
+    display: flex;
+    bottom: 55px;
+    position: relative;
+    right: 32px;
+    align-items: center;
+
+}
+
+
+ .service .box-1
+ {
+    margin-top: 10px;
+    margin-right:-29px;
+
+}
+.service .box-1, h5,h3 {
+    margin-top: 50px;
+}
+
+.service .box-1, .box-2,.box-3 h5 {
+    font-family: Vazirmatn;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #3D2F1A;
+    width: 85%;
+}
+
+.service .box-1 h3 {
+    font-family: Vazirmatn;
+    font-size: 23px;
+    font-weight: 300;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #00000099;
+    width: 90%;
+}
+.service .arrowIcon{
+    width: 40px;
+    height: 40px;
+    /* margin-right: 50%; */
+    margin-top: 100px;
+    color: #AF8149;
+
+
+}
+
+
+
+/* start special */
+
+
+section#service {
+    position: relative;
+    top: 34px;
+}
+
+
+.special .info h3 {
+    font-family: Vazirmatn;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 90px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 100px;
+}
+.special .info p {
+    font-family: Vazirmatn;
+font-size: 24px;
+font-weight: 500;
+line-height: 50px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.special .row {
+    margin-top: 70px;
+}
+
+
+.special-box {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+ .special .box-1
+ {
+    margin-top: 10px;
+    margin-right: -70px;
+
+}
+.special .box-1 h5,h3 {
+    margin-top: 30px;
+}
+
+.special .box-1 h5 {
+    font-family: Vazirmatn;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#3D2F1A ;
+    width: 110%;
+}
+
+.special .box-1 h3 {
+ font-family: Vazirmatn;
+font-size: 20px;
+font-weight: 300;
+line-height: 31px;
+letter-spacing: 0em;
+text-align: center;
+color: #00000099;
+width: 100%; 
+}
+.special .arrowIcon{
+    width: 60px;
+    height: 55px;
+    margin-right: 45%;
+    margin-top: 48px;
+    color: #192652;
+}
+/* end special */
+
+
+
+/* start form */
+
+.main {
+    position: relative;
+    top: 30px;
+    right: 20px;
+}
+div .section-padding {
+ background-color: #EEEEEE;
+  margin-bottom: 100px;
+  height: auto;
+  margin-top: 100px;
+}
+
+div h1 {
+    font-family: Vazirmatn;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 77px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 50px;
+    color: #121B39;
+}
+div p {
+    font-size: 25px;
+    font-weight: 500;
+    width: 100%;
+    text-align: center;
+    color:#4D4D4D;
+    
+
+}
+div .form-control {
+    box-sizing: border-box;
+    border-radius: 10px !important;
+    border: unset;
+   
+}
+div .send {
+    font-size: 40px;
+    margin-right: 990px;
+    padding-bottom: 50px;
+    position: relative;
+    bottom: 60px;
+   
+}
+
+
+/* end form */
+
+
+.home .services {
+    padding-bottom: 50px;
+}
+
+.home .service-text {
+    margin-top: 40px;
+}
+
+.service-text h6 {
+    color: var(--orange-color);
+    font-weight: 800;
+    direction: rtl;
+}
+
+.home .service-text h3 {
+    font-weight: 700;
+    color: #24277b;
+    width: 100%;
+    font-size: 41px;
+    direction: rtl;
+
+}
+
+.home .service-text p {
+    font-weight: 500;
+    color: var(--orange-color);
+    font-size: 15px;
+    direction: rtl;
+}
+
+.home .service-text button {
+    background-color: var(--orange-color);
+    padding: 15px 30px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    border-width: 2px;
+    line-height: 1.2;
+    color: white;
+    margin-top: 20px;
+}
+
+.home .service-boxes {
+    display: flex;
+    margin-top: 50px;
+
+}
+
+
+.home .service-boxes .icon {
+    font-size: 50px;
+    color: var(--main-color);
+    margin-bottom: 15px;
+}
+
+.home .service-boxes h3 {
+    color: var(--main-color);
+    direction: rtl;
+    padding-right: 40px;
+}
+
+.home .service-boxes p {
+    width: 85%;
+    direction: rtl;
+    color: #fff;
+
+}
+
+.home .service-boxes button {
+    padding: 15px 30px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    border-width: 2px;
+    line-height: 1.2;
+    color: white;
+    background-color: var(--main-color);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+@media only screen and (max-width: 992px) {
+    .home .service-text {
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+
+    .home .workProcess-boxes .box1 {
+        margin-bottom: 50px;
+        margin-top: 0px;
+        width: 3000px;
+    }
+
+    .workProcess .box-1
+    
+     {
+        margin-bottom: 30px;
+        margin-top: -20px;
+        height: 100%;
+
+    }
+
+
+
+    .home .workProcess-boxes {
+        display: block;
+    }
+
+    .booking .book-form {
+        width: 100%;
+    }
+
+    .booking .photos-group .img1 {
+        right: 10px;
+        bottom: 80px;
+        height: 300px;
+    }
+
+    .home .service-boxes {
+        display: block;
+    }
+
+   
+}
+
+#carousel-row {
+    justify-content: center;
+}
+
+/* end testmonial */

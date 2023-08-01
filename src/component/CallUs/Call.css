@@ -1,0 +1,48 @@
+div .call {
+    margin-left: 200px;
+}
+
+div .call h1 {
+  font-family: Vazirmatn;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 85px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #121B39;
+}
+
+div .call p {
+  font-family: Vazirmatn;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #595959;
+    
+}
+
+
+  div .photos-group {
+    object-fit: contain;
+    /* width: 213px; */
+    /* height: 180px; */
+    display: flex;
+    padding-bottom: 25px;
+    margin-right: 45%;
+    margin-top: -160px;
+}
+
+  div .img6{
+    width: 150px;
+    height: 150px;
+    padding-bottom: 30px;
+    object-fit: contain;
+  }
+  div .img5{
+    width: 150px;
+    height: 150px;
+    padding-bottom: 30px;
+    object-fit: contain;
+  }
